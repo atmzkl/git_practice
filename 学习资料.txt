@@ -17,7 +17,10 @@ git reflog
 """检查提交版本"""
 
 git log 
-"""详细的检查提交版本"""
+"""检查详细的提交版本"""
 
 cat XXXX.txt
 """查看.txt文件内容"""
+
+git reset --hard XXXXXXX
+"""版本穿梭"""
