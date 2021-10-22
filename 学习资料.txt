@@ -1,0 +1,20 @@
+git config --global user.name "XXX"
+git config --global user.email "XXXXXXX@XXX.com"
+
+git init
+"""初始化仓库"""
+
+git status
+"""检查状态"""
+
+git add .
+"""将文件提交到暂存区"""
+
+git commit -m "XXXX XXXXX"
+"""将暂存区的文件提交到本地库"""
+
+git reflog
+"""检查提交版本"""
+
+git log 
+"""详细的检查提交版本"""
